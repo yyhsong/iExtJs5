@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/********* reset **********/
+body.x-border-layout-ct, 
+div.x-border-layout-ct {background-color:#fff;}
+
+/********* additon **********/
+.login-logo {display:block;margin:20px auto 5px auto;}
+
+#top {position:relative;}
+.main-logo {display:block;margin:5px;height:30px;}
+.top-tool {position:absolute;top:10px;right:5px;color:#333;}
+.top-tool .x-autocontainer-outerCt {width:auto!important;}
+.top-tool label {margin-right:10px;line-height:24px;}
+.main-logo {float:left;display:block;margin:5px 3px;height:30px;}
+
+#nav .x-tree-node-text {color:#999;}
+#nav .node-link .x-tree-node-text {color:#333;cursor:pointer;}
+
+.footer {height:24px;line-height:24px;text-align:center;font-size:12px;color:#666;background:#fff;}
+
+.opt-search,
+.opt-add,
+.opt-edit,
+.opt-delete {
+	margin:0px 5px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.opt-search {background-image:url("../img/opt-search.png");}
+.opt-add {background-image:url("../img/opt-add.png");}
+.opt-edit {background-image:url("../img/opt-edit.png");}
+.opt-delete {background-image:url("../img/opt-delete.png");}
